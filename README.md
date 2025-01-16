@@ -1,50 +1,39 @@
-# React + TypeScript + Vite
+# Projeto ímpar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto utiliza **Vite** como bundler para criar uma aplicação rápida e eficiente em React.
 
-Currently, two official plugins are available:
+## 🚀 Como rodar o projeto?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. **Pré-requisitos**
+Certifique-se de que você possui o [Node.js](https://nodejs.org/) instalado na sua máquina. Recomendamos a versão LTS. Também será necessário o gerenciador de pacotes `npm` (que já vem com o Node.js) ou o [Yarn](https://yarnpkg.com/).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### 2. **Clone o repositório**
+```bash
+git clone https://github.com/EduardoMoreira26/impar-test.git
+cd impar-test
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### 3. **Instale as dependências**
+Execute o comando abaixo para instalar as bibliotecas necessárias:  
+```bash
+npm install
 ```
+
+> Caso prefira usar Yarn:  
+> ```bash
+> yarn install
+> ```
+
+### 4. **Inicie o servidor de desenvolvimento**
+Rode o projeto localmente com o seguinte comando:  
+```bash
+yarn dev
+```
+
+O servidor estará disponível em: [http://localhost:5173](http://localhost:5173)
+
+## 📦 Dependências Principais  
+Aqui estão as dependências utilizadas no projeto:
+
+**react-toastify**
+   Este projeto inclui a integração da biblioteca `react-toastify`, utilizada para exibir notificações amigáveis e personalizáveis em projetos React.
