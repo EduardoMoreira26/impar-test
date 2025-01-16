@@ -1,0 +1,45 @@
+:root {
+  --cor-stroke: #EDD8F3;
+  --cor-bg: #F6F4F6;
+  --cor-branco: #FFFFFF;
+  --cor-aviso: #FFC400;
+  --cor-erro: #DB2525;
+  --cor-sucesso: #51C421;
+  --cor-texto: #454545;
+  --cor-destaque: #E76316;
+  --cor-primaria: #5F1478;
+  --cor-secundaria: #AE276F;
+  --cor-border: #E4E4E4;
+
+
+  --font-family-muli: 'Muli', sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --font-size-12: 12px;
+  --font-size-13: 13px;
+  --font-size-18: 18px;
+  --font-size-24: 24px;
+  --font-size-32: 32px;
+  --font-size-52: 52px;
+
+  --line-spacing-15: 15px;
+  --line-spacing-20: 20px;
+  --line-spacing-30: 30px;
+  --line-spacing-40: 40px;
+  --line-spacing-65: 65px;
+
+  --unnamed-text-transform-uppercase: uppercase;
+  --unnamed-decoration-underline: underline;
+
+  --unnamed-color-000000: #000000;
+  --unnamed-color-a02724: #A02724;
+  --unnamed-color-b55b52: #B55B52;
+  --unnamed-color-263238: #263238;
+  --unnamed-color-c64049: #C64049;
+  --unnamed-color-e6e6e6: #E6E6E6;
+  --unnamed-color-e0e0e0: #E0E0E0;
+  --unnamed-color-f5f5f5: #F5F5F5;
+  --unnamed-color-f0f0f0: #F0F0F0;
+  --unnamed-color-ebebeb: #EBEBEB;
+  --unnamed-color-6c63ff: #6C63FF;
+}

@@ -1,0 +1,6 @@
+.header {
+  background-image: linear-gradient(to right,var(--cor-primaria), var(--cor-secundaria));
+  padding: var(--line-spacing-15);
+  display: flex;
+  align-items: center;
+}

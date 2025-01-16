@@ -1,0 +1,95 @@
+.card {
+  background: var(--cor-branco);
+  border: 1px solid var(--cor-border);
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 234px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-icon {
+  background: var(--cor-bg);
+  border-radius: 50%;
+  border: 1px solid var(--cor-border);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem auto;
+  width: 95px;
+  height: 95px;
+}
+
+.line {
+  width: 80%;
+  height: 1px;
+  background: linear-gradient(to bottom, var(--cor-border), var(--cor-bg));
+  margin-bottom: 0.5rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.card-content h4 {
+  font-family: var(--font-family-muli);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-16);
+  color: var(--unnamed-color-263238);
+  margin: 0.5rem 0 1rem;
+  line-height: 1.2;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  border-top: 1px solid var(--cor-border);
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.card-actions button {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+  font-family: var(--font-family-muli);
+  font-size: var(--font-size-13);
+  transition: color 0.3s ease;
+}
+
+.card-actions button:hover {
+  color: var(--cor-destaque);
+}
+
+.btn-delete i {
+  color: var(--cor-erro);
+}
+
+.btn-edit i {
+  color: var(--cor-secundaria);
+}

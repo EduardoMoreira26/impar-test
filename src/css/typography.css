@@ -1,0 +1,15 @@
+.-titulo-hero {
+  font-family: var(--font-family-muli);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-52);
+  line-height: var(--line-spacing-65);
+  color: var(--cor-primaria);
+}
+
+.-titulo-h1 {
+  font-family: var(--font-family-muli);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-32);
+  line-height: var(--line-spacing-40);
+  color: var(--cor-primaria);
+}

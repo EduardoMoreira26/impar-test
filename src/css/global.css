@@ -1,0 +1,26 @@
+@import './variables.css';
+@import './typography.css';
+
+body {
+  font-family: var(--font-family-muli);
+  background-color: var(--cor-bg);
+  color: var(--cor-texto);
+  margin: 0;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
